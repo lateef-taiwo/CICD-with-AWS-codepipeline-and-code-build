@@ -1,20 +1,24 @@
 {
-  "name": "cafetaria",
+  "name": "continuous-integration-with-aws-codepipeline",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npm run build"
+    
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline.git"
   },
   "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline/issues"
   },
-  "homepage": "https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline#readme"
+  "homepage": "https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
 }
