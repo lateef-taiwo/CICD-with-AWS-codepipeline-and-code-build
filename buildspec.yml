@@ -6,7 +6,7 @@ phases:
       nodejs: 16  # nodejs runtime version you need here.
   pre_build:
     commands:
-      - echo Just a test
+      - echo Just a test...
   build:
     commands:
       - echo Just testing... 
