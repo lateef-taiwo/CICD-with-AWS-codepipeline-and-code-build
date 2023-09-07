@@ -4,8 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline/issues"
+  },
+  "homepage": "https://github.com/lateef-taiwo/Continuous-Integration-with-aws-codepipeline#readme"
 }
