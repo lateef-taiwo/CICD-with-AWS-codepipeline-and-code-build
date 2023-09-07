@@ -14,6 +14,6 @@ phases:
       - npm run build  # Build your application. Adjust this command as needed.
   post_build:
     commands:
-      - aws s3 sync ./build s3://mys3bucket5190 . # Deploy your build artifacts to an S3 bucket.
+      - aws s3 sync ./build s3://mys3bucket5190 # Deploy your build artifacts to an S3 bucket.
 artifacts:
   files: '**/*'
