@@ -4,12 +4,6 @@ phases:
   install:
     runtime-versions:
       nodejs: 16  # nodejs runtime version you need here.
-  pre_build:
-    commands:
-      - echo Just a test.....
-  build:
-    commands:
-      - echo Just testing.....
   post_build:
     commands:
       - aws s3 sync . s3://mys3bucket5190 # Deploy your build artifacts to an S3 bucket.
