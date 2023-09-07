@@ -3,12 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14  # nodejs untime version you need here.
+      nodejs: 16  # nodejs untime version you need here.
   pre_build:
     commands:
+      - echo installiing dependencies...
       - npm install  # Install any dependencies your project requires.
   build:
     commands:
+      - echo building...
       - npm run build  # Build your application. Adjust this command as needed.
   post_build:
     commands:
