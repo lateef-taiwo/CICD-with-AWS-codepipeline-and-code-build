@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 16  # nodejs untime version you need here.
+      nodejs: 16  # nodejs runtime version you need here.
   pre_build:
     commands:
       - echo Just a test
